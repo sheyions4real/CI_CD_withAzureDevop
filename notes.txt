@@ -1,0 +1,55 @@
+BUILD - TEST - DEPLOY with
+CI/CD with Azure DevOps Pipelines and github
+
+Build Pipeline
+
+Plan - Code - Build - Test - Release - Deploy - Operate - Monitor 
+
+
+// to list all the installed template
+dotnet new --list
+
+
+
+to create the .net wep api application using template
+in the src folder
+
+dotnet new webapi -n SimpleAPI
+
+
+cd src 
+
+dotnet build					// to build the project
+
+dotnet run					// to run the project
+
+
+
+to create the test application using the template
+in the test folder
+
+dotnet new xunit -n SimpleAPI.Tests
+
+cd test
+
+dotnet build			// to build the project
+
+dotnet test			// to run the test
+
+
+
+
+
+// to create a solution file for both project
+dotnet new sln --name SimpleAPI
+
+
+// add the two porject to the solution file
+dotnet sln SimpleAPI.sln add src/SimpleAPI/SimpleAPI.csproj test/SimpleAPI.Tests/SimpleAPI.Test.csproj
+
+
+
+
+
+// to add a project reference of the API  project into the test project
+dotnet add test/SimpleAPI.Test/SimpleAPI.Test.csproj reference src/SimpleAPI/SimpleAPI.csproj			// so you can reference the controllers of the API project in the Test project
