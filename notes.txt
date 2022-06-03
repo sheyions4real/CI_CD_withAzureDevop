@@ -53,3 +53,13 @@ dotnet sln SimpleAPI.sln add src/SimpleAPI/SimpleAPI.csproj test/SimpleAPI.Tests
 
 // to add a project reference of the API  project into the test project
 dotnet add test/SimpleAPI.Test/SimpleAPI.Test.csproj reference src/SimpleAPI/SimpleAPI.csproj			// so you can reference the controllers of the API project in the Test project
+
+
+
+dotnet build    		// on the main folder where the sln file is and this ill build the two project
+
+
+
+Createthe azure devop project as set the project source from git and then select the <div class="d-none d-sm-block">
+    Public repo to public deploy
+</div>
