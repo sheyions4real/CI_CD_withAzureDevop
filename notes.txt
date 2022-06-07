@@ -62,4 +62,19 @@ dotnet build    		// on the main folder where the sln file is and this ill build
 
 Createthe azure devop project as set the project source from git and then select the <div class="d-none d-sm-block">
     Public repo to public deploy
+
+    set up an agent and change the pool in the yaml file to point to default or the agent pool you created
+https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops
+
+azure personal access token
+Azure Devup Accesstoken
+4thh2kojwkpxymkxmbqjljosng5utbhp2lpo65g322n2nkk6qysq
+
+
+ensure the agent downloaded and set up on your machine from the link is running and listening to the azure server 
+use c:\agent> ./run.cmd command on powershell to run the agent service 
+
+
+
+
 </div>
