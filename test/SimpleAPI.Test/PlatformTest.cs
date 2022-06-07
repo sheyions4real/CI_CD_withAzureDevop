@@ -13,7 +13,7 @@ public class PlatformTest
   {
        
        var recordCount = controller.GetPlatforms();
-        Assert.True(recordCount.Count >0 ,"Result count should be greater than 0");
+        Assert.True(recordCount.Count <0 ,"Result count should be greater than 0");
   }
     
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "svknS5D+/+rNWZOuhaqJG8zEZ9/nQ7HOaQBcCyF3/yEtSBSulAw5wm042l2Vx/WqHbKEbos+sN3QVDL8v9AU9A==",
+  "dgSpecHash": "ugvP5Hd3t817y/1u4TFoaB937ZtkqRVz6L6AyoGOAvtxHi30kEpW4bXGHDzcFqA5ezhytp0/yFldiN13LTtxbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mattewo\\source\\repos\\Azure Devop - Build-Test-Deploy .Net API\\test\\SimpleAPI.Test\\SimpleAPI.Test.csproj",
+  "projectFilePath": "C:\\Users\\mattewo\\source\\repos\\Azure Devop - Build-Test-Deploy .Net API\\test\\simpleapi.test\\SimpleAPI.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mattewo\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\mattewo\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
